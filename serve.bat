@@ -1,0 +1,1 @@
+gulp ionic-generate && ionic serve

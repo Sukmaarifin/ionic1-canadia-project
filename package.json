@@ -1,0 +1,141 @@
+{
+  "name": "merchant-apps",
+  "version": "0.0.1",
+  "description": "gawe poc",
+  "dependencies": {
+    "ansi-styles": "3.2.0",
+    "clone": "2.1.1",
+    "cordova-android": "6.3.0",
+    "cordova-ios": "4.5.4",
+    "cordova-plugin-android-permissions": "^1.0.0",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-console": "~1.1.0",
+    "cordova-plugin-contacts": "^3.0.0",
+    "cordova-plugin-datepicker": "^0.9.3",
+    "cordova-plugin-device": "~1.1.2",
+    "cordova-plugin-email-composer": "~0.8.7",
+    "cordova-plugin-file-opener2": "^2.0.19",
+    "cordova-plugin-file-transfer": "^1.6.3",
+    "cordova-plugin-geolocation": "^3.0.0",
+    "cordova-plugin-gpslocation": "^1.0.0",
+    "cordova-plugin-image-picker": "^1.1.3",
+    "cordova-plugin-inappbrowser": "^1.7.1",
+    "cordova-plugin-keychain-touch-id": "^3.2.1",
+    "cordova-plugin-screen-orientation": "^2.0.2",
+    "cordova-plugin-splashscreen": "~4.1.0",
+    "cordova-plugin-statusbar": "~2.3.0",
+    "cordova-plugin-whitelist": "~1.3.3",
+    "cordova-plugin-x-socialsharing": "^5.2.0",
+    "cordova-sqlite-storage": "^2.0.4",
+    "end-of-stream": "1.4.0",
+    "es6-promise-plugin": "^4.1.1",
+    "escape-string-regexp": "1.0.5",
+    "gulp": "^3.9.1",
+    "gulp-cli": "latest",
+    "gulp-concat": "^2.6.1",
+    "gulp-dest-clean": "^0.5.0",
+    "gulp-install": "^1.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-shell": "^0.6.3",
+    "gulp-uglify": "^3.0.0",
+    "help": "^3.0.2",
+    "ionic-plugin-keyboard": "~2.2.0",
+    "latest": "^0.2.0",
+    "node-sass": "^4.7.1",
+    "replace-ext": "1.0.0",
+    "sequencify": "0.0.7",
+    "stream-consume": "0.1.0",
+    "vinyl": "2.1.0"
+  },
+  "devDependencies": {
+    "bower": "^1.8.2",
+    "gulp-util": "^3.0.8",
+    "ionic": "3.18.0",
+    "shelljs": "^0.7.8"
+  },
+  "cordovaPlugins": [
+    "ionic-plugin-keyboard",
+    "cordova-plugin-actionsheet",
+    "cordova-plugin-camera",
+    "cordova-plugin-compat",
+    "cordova-plugin-console",
+    "cordova-plugin-contacts",
+    "cordova-plugin-device",
+    "cordova-plugin-file",
+    "cordova-plugin-file-opener2",
+    "cordova-plugin-file-transfer",
+    "cordova-plugin-geolocation",
+    "cordova-plugin-image-picker",
+    "cordova-plugin-inappbrowser",
+    "cordova-plugin-network-information",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-x-socialsharing",
+    "cordova-sqlite-storage",
+    "cordova.plugins.diagnostic",
+    "ionic-plugin-keyboard",
+    "cordova-plugin-fcm",
+    "phonegap-nfc",
+    "cordova-plugin-email-composer",
+    "https://github.com/phonegap/phonegap-plugin-barcodescanner.git",
+    {
+      "locator": "https://github.com/wildabeast/BarcodeScanner.git",
+      "id": "phonegap-plugin-barcodescanner"
+    }
+  ],
+  "cordovaPlatforms": [
+    {
+      "platform": "android",
+      "version": "6.2.0",
+      "locator": "android@6.2.0"
+    },
+    "ios"
+  ],
+  "cordova": {
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-actionsheet": [],
+      "cordova-plugin-camera": [],
+      "cordova-plugin-console": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-fcm": [],
+      "cordova-plugin-file": [],
+      "cordova-plugin-network-information": [],
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-whitelist": {},
+      "cordova.plugins.diagnostic": [],
+      "ionic-plugin-keyboard": {},
+      "phonegap-nfc": [],
+      "phonegap-plugin-barcodescanner": [],
+      "uk.co.workingedge.phonegap.plugin.launchnavigator": [],
+      "cordova-plugin-email-composer": {},
+      "cordova-plugin-contacts": {
+        "CONTACTS_USAGE_DESCRIPTION": " "
+      },
+      "cordova-plugin-file-opener2": {},
+      "cordova-plugin-file-transfer": {},
+      "cordova-plugin-image-picker": {
+        "PHOTO_LIBRARY_USAGE_DESCRIPTION": " "
+      },
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-x-socialsharing": {},
+      "cordova-sqlite-storage": {},
+      "cordova-plugin-keychain-touch-id": {},
+      "cordova-plugin-geolocation": {
+        "GEOLOCATION_USAGE_DESCRIPTION": " "
+      },
+      "cordova-plugin-gpslocation": {},
+      "cordova-plugin-android-permissions": {},
+      "cordova-plugin-compat": {},
+      "cordova-plugin-screen-orientation": {},
+      "cordova-plugin-datepicker": {}
+    }
+  }
+}
